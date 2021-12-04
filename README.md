@@ -4,6 +4,9 @@
 >Esse projeto foi o meu trabalho de conclusão de curso do curso técnico em informática.
 Foi feito uma exploração de recursos para o ensino de sistemas digitais nos cursos técnicos e superiores, através do game Minecraft. Neste projeto foi estudado profundamente diversos componentes da eletrônica digital e mecanismos do jogo para serem aplicados neste ramo. Neste projeto também foi planejado um portal educacional, para difundir aplicações do jogo em diversas áreas do conhecimento.
 
+## Plataforma educacional
+>Para complementar o projeto e atender os objetivos do TCC foi planejado uma plataforma educacional para a postagem de conteúdos e a criação de um modelo experimental dela utilizando as tecnologias citadas mais abaixo. É possível ver o prototipagem do visual do projeto pelo Figma [clicando aqui](https://www.figma.com/file/zJwlP0FkYZicg3GGTm6gNV/redstech)
+
 ## Aulas
 >Um ano antes do início do projeto, foi preparado algumas aulas para a Tutoria de Progrmação do IFRN Campus Caicó, para testar e disseminar os conhecimentos que posteriomente seriam utilizados nesse projeto. Essas aulas estão no formato .pptx e podem ser acessadas no diretório "aulas_redstone" desse diretório.
 
