@@ -11,7 +11,7 @@ Foi feito uma exploração de recursos para o ensino de sistemas digitais nos cu
 >Um ano antes do início do projeto, foi preparado algumas aulas para a Tutoria de Progrmação do IFRN Campus Caicó, para testar e disseminar os conhecimentos que posteriomente seriam utilizados nesse projeto. Essas aulas estão no formato .pptx e podem ser acessadas no diretório "aulas_redstone" desse diretório.
 
 ## Arquivos de estrutura (circuitos)
-Alguns dos circuitos mais triviais do meio da eletrônica digital foram adaptados ao minecraft e podem ser acessados no diretório "minecraft_circuits".
+Alguns dos circuitos mais triviais do meio da eletrônica digital foram adaptados ao Minecraft e podem ser acessados no diretório "minecraft_circuits".
 Para utilizálos no jogo realize os seguintes passos.
 * Acesse o diretório de estruturas do seu mapa no jogo
 * Coloque as estruturas desejadas no diretório
