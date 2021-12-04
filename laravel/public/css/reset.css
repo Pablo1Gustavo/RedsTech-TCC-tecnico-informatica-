@@ -1,0 +1,116 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-color: #f3f8fc;
+}
+
+.nav {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: lighter;
+}
+
+a span {
+    position: relative;
+    bottom: 2px;
+}
+
+.user-li {
+    margin-right: 40px;
+}
+
+#username {
+    position: relative;
+    top: 1px;
+}
+
+#user-img {
+    margin-right: 10px;
+    position: relative;
+    top: 11px;
+}
+
+.user-img-small {
+    position: relative;
+    right: 10px;
+}
+
+.username-small {
+    position: relative;
+    left: 9px;
+}
+
+@media screen and (min-width: 1920px) {
+    .card {
+        width: auto;
+        position: relative; 
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    .card {
+        width: 275px;
+        position: relative;
+        right: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .card {
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1600px) {
+    .card {
+        width: 275px;
+        position: relative;
+        right: 30px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    .card {
+        float: left;
+        margin-right: 40px;
+    }
+}
+
+#foot {
+    margin-top: 70px;
+    border-radius: 22% 22% 0% 0% / 30% 30% 0% 0%
+}
+
+#footer-img {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    right: 28%;
+}
+
+@media screen and (max-width: 701px) {
+    #footer-img {
+        width: 130px;
+        height: 130px;
+        left: 32%;
+    }
+}
+
+.map {
+    text-decoration: none;
+    color: white;
+}
+
+#title-c {
+    font-weight: 500;
+}
+
+.p-cards {
+    font-size: 17px;
+}

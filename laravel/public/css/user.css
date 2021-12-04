@@ -1,0 +1,73 @@
+hr {
+    position: relative;
+    bottom: 20px;
+    border: 1px solid rgb(68, 68, 68);
+}
+
+#post-container {
+    width: 75%;
+    position: relative;
+    left: 12.5%;
+    margin-top: 65px;
+    padding: 17px 50px 50px 50px;
+    border-radius: 7px;
+}
+
+#pag-user-text{
+    margin-bottom: 30px;
+}
+
+.change-profile {
+    text-decoration: none;
+    color: #01579b;
+    font-size: 18px;
+}
+
+#info-user{
+    margin-top: 65px;
+    width: 40%;
+}
+
+@media (max-width: 900px){
+    #info-user{
+        width: 100%;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1660px){
+    #info-user{
+        width: 60%;
+    }
+}
+
+.info-input {
+    margin-top: 50px;
+}
+
+.row .input-field input {
+    border-bottom: 1px solid rgb(100, 100, 100) !important;
+    box-shadow: 0 1px 0 0 rgb(100, 100, 100) !important
+}
+
+input[type=text]:not(.browser-default):disabled + label,
+input[type=text]:not(.browser-default)[readonly="readonly"] + label{
+    color: #01579b !important;
+    font-size: 22px !important;
+    margin-top: 0 !important;
+}
+
+input:not(.browser-default):disabled{
+    margin-top: 10px;
+    color: black !important;
+    font-size: 20px !important;
+}
+
+.footer-user{
+    margin-top: 150px !important;
+}
+
+@media screen and (min-width: 701px) {
+    .page-footer .row .col {
+        margin-left: 6.5% !important;
+    }
+}

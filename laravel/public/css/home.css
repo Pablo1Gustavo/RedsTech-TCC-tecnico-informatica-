@@ -1,0 +1,98 @@
+#divcards {
+    margin-top: 43px;
+}
+
+#between-ultcard{
+    margin-top: 43px;
+}
+
+@media screen and (min-width: 701px) {
+    .row .col {
+        margin-left: 6.5% !important;
+    }
+}
+
+#hr1 {
+    margin-top: 40px;
+    width: 50%;
+    color: #01579b;
+}
+
+#hr2 {
+    margin-top: 10px;
+    width: 50%;
+    color: #01579b;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+.seemore {
+    font-size: 25px;
+}
+
+/* Blog */
+
+#hr3 {
+    margin-top: 60px;
+    width: 50%;
+    color: #01579b;
+}
+
+#hr4 {
+    margin-top: 40px;
+    width: 50%;
+    color: #01579b;
+}
+
+#pagnat{
+    margin-top: 45px;
+    color: black;
+}
+
+/* Courses */
+
+.card-view {
+    margin-top: 15px;
+}
+
+#card-texts {
+    margin-top: 16px;
+    font-size: 15px;
+}
+
+#time-icon {
+    position: relative;
+    bottom: 5px;
+}
+
+.course-title {
+    position: relative;
+    bottom: 10px;
+}
+
+#btn-acessar-c{
+    border-radius: 7px;
+    position: relative;
+    left: 50%;
+    top: 54px;
+    transform: translate(-50%, -50%);
+}
+
+.pagnat-c {
+    margin-top: 80px;
+}
+
+#hr5 {
+    margin-top: 50px;
+    width: 50%;
+    color: #01579b;
+}
+
+#hr6 {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    width: 50%;
+    color: #01579b;
+}

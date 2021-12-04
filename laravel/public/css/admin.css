@@ -1,0 +1,356 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-color: #f3f8fc;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.nav-text {
+    color: white !important;
+    font-size: 20px !important;
+}
+
+.logo-adm {
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 1600px) {
+    .nav-text {
+        font-size: 16px !important;
+    }
+    li h4 {
+        font-size: 25px;
+    }
+    .logo-adm {
+        width: 30%;
+        height: 30%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .nav-text {
+        font-size: 16px !important;
+    }
+    li h4 {
+        font-size: 25px;
+    }
+    .logo-adm {
+        width: 30%;
+        height: 30%;
+    }
+}
+
+#hr1 {
+    width: 40%;
+    border: 1.5px solid white;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.itens {
+    position: relative;
+    right: 6%;
+    margin-bottom: 30px;
+}
+
+.text-adm {
+    font-weight: 300;
+}
+
+#icon1 {
+    position: relative;
+    left: 35%;
+    bottom: 4px;
+}
+
+#icon2 {
+    position: relative;
+    left: 26%;
+    bottom: 4px;
+}
+
+#icon3 {
+    position: relative;
+    left: 23%;
+    bottom: 4px;
+}
+
+#icon4 {
+    position: relative;
+    left: 29%;
+    bottom: 4px;
+}
+
+.content {
+    position: relative;
+}
+
+.btn-listar {
+    position: relative;
+    left: 60%;
+    top: 60px;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    font-size: 17px;
+    font-weight: lighter;
+    border-radius: 4px;
+}
+
+.form-course {
+    margin-top: 125px;
+    width: 550px;
+    position: relative;
+    left: 60%;
+    top: 230px;
+    transform: translate(-50%, -50%);
+    padding: 20px 50px 65px 50px;
+    border-radius: 7px;
+}
+
+textarea {
+    
+}
+
+.title-course {
+    margin-bottom: 55px;
+    margin-left: 10px;
+}
+
+.btn-submit {
+    width: 200px;
+    height: 50px;
+    left: 25%;
+    top: 45px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .btn-listar {
+        margin-top: -10px;
+        position: relative;
+        left: 50%;
+    }
+    .form-course {
+        width: 100%;
+        position: relative;
+        left: 50%;
+        top: 230px;
+    }
+    .btn-submit {
+        left: 15%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+    .btn-listar {
+        margin-top: -10px;
+        position: relative;
+        left: 67%;
+    }
+    .form-course {
+        width: 550px;
+        position: relative;
+        left: 67%;
+        top: 230px;
+        margin-bottom: 30px;
+    }
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=file]:not(.browser-default), textarea.materialize-textarea:not(.browser-default), textarea.materialize-textarea {
+    margin: 0 0 25px 0 !important;
+}
+
+/* POSTS */
+
+.btn-listar-post {
+    position: relative;
+    left: 60%;
+    top: 60px;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    font-size: 17px;
+    font-weight: lighter;
+    border-radius: 4px;
+}
+
+.form-post {
+    margin-top: 125px;
+    width: 700px;
+    position: relative;
+    left: 60%;
+    top: 280px;
+    transform: translate(-50%, -50%);
+    padding: 20px 50px 65px 50px;
+    border-radius: 7px;
+}
+
+.title-post {
+    margin-bottom: 55px;
+    margin-left: 10px;
+}
+
+.btn-submit-post {
+    width: 230px;
+    height: 70px;
+    left: 30%;
+    top: 45px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .btn-listar-post {
+        margin-top: -10px;
+        position: relative;
+        left: 50%;
+    }
+    .form-post {
+        width: 100%;
+        position: relative;
+        left: 50%;
+        top: 275px;
+    }
+    .btn-submit-post {
+        left: 11%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1800px) {
+    .btn-listar-post {
+        margin-top: -10px;
+        position: relative;
+        left: 67%;
+    }
+    .form-post {
+        width: 550px;
+        position: relative;
+        left: 67%;
+        top: 275px;
+        margin-bottom: 30px;
+    }
+}
+
+/* Aulas */
+
+.btn-listar-class {
+    position: relative;
+    left: 60%;
+    top: 60px;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    font-size: 17px;
+    font-weight: lighter;
+    border-radius: 4px;
+}
+
+.form-class {
+    margin-top: 125px;
+    width: 700px;
+    position: relative;
+    left: 60%;
+    top: 240px;
+    transform: translate(-50%, -50%);
+    padding: 20px 50px 65px 50px;
+    border-radius: 7px;
+}
+
+.title-class {
+    margin-bottom: 55px;
+    margin-left: 10px;
+}
+
+.btn-submit-class {
+    width: 230px;
+    height: 70px;
+    left: 30%;
+    top: 45px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .btn-listar-class {
+        margin-top: -10px;
+        position: relative;
+        left: 50%;
+    }
+    .form-class {
+        width: 100%;
+        position: relative;
+        left: 50%;
+        top: 275px;
+    }
+    .btn-submit-class {
+        left: 11%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1800px) {
+    .btn-listar-class {
+        margin-top: -10px;
+        position: relative;
+        left: 67%;
+    }
+    .form-class {
+        width: 550px;
+        position: relative;
+        left: 67%;
+        top: 230px;
+        margin-bottom: 40px;
+    }
+}
+
+/* list-courses */
+
+.table-cont {
+    border-radius: 7px;
+    position: relative;
+    left: 8%;
+    margin-top: 50px;
+}
+
+.listando-curso-text {
+    position: relative;
+    left: 5%;
+}
+
+@media screen and (max-width: 900px) {
+    .table-cont {
+        border-radius: 7px;
+        position: relative;
+        left: 0%;
+        margin-top: 80px;
+    }
+    .listando-curso-text {
+        position: relative;
+        left: 0%;
+    }
+}
+
+@media screen and (max-width: 1800px) and (min-width: 1200px) {
+    .table-cont {
+        border-radius: 7px;
+        position: relative;
+        left: 10.5%;
+        margin-top: 80px;
+    }
+    .listando-curso-text {
+        position: relative;
+        left: 9%;
+    }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 1000px) {
+    .table-cont {
+        border-radius: 7px;
+        position: relative;
+        left: 15%;
+        margin-top: 80px;
+    }
+    .listando-curso-text {
+        position: relative;
+        left: 14%;
+    }
+}

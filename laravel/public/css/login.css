@@ -1,0 +1,208 @@
+/* Login */
+
+body {
+    background-image: url("../img/background2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.logo-nav {
+    margin-right: 50px;
+}
+
+main {
+    position: relative;
+    top: 110px;
+}
+
+@media(max-width: 1919px) {
+    main {
+        position: relative;
+        top: 60px;
+        padding-bottom: 35px;
+    }
+}
+
+.description {
+    height: 625px;
+    border-radius: 6px 0 0 6px;
+}
+
+#creeper {
+    position: relative;
+    left: 18%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.creeper-title {
+    font-weight: 900;
+}
+
+.content-text {
+    position: relative;
+    right: 10%;
+    bottom: 53%;
+    transform: translate(50%, 50%);
+    font-size: 16px;
+}
+
+.login {
+    height: 625px;
+    border-radius: 0px 6px 6px 0;
+}
+
+.logo {
+    position: relative;
+    left: 50%;
+    top: 16%;
+    transform: translate(-50%, -50%);
+}
+
+.login-title {
+    position: relative;
+    top: 9.5%;
+}
+
+#hr-login{
+    position: relative;
+    top: 10%;
+    width: 34%;
+    border: 2px solid #01579b;
+}
+
+.form {
+    margin-top: 110px;
+}
+
+.btn-enviar {
+    width: 100%;
+}
+
+#color {
+    background-color: #f3f8fc;
+}
+
+.forgot-pass, .logo-title {
+    color: #01579b;
+}
+
+/* Register */
+
+.main-register { 
+    width: 40%;
+    position: relative;
+    left: 30%;
+    transform: translate(0%, -3%);
+}
+
+@media(max-width: 1919px) {
+    .main-register {
+        width: 40%;
+        position: relative;
+        left: 30%;
+        transform: translate(0%, 3%);
+    }
+}
+
+@media(max-width: 1366px) {
+    .main-register {
+        width: 50%;
+        position: relative;
+        left: 25%;
+        transform: translate(0%, 0%);
+        padding-bottom: 32px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .main-register {
+        width: 70%;
+        position: relative;
+        left: 15%;
+        transform: translate(0%, 0%);
+        padding-bottom: 32px;
+    }
+}
+ 
+@media(max-width: 800px) {
+    .main-register {
+        width: 100%;
+        position: relative;
+        left: 0%;
+        padding-bottom: 32px;
+    }
+}
+
+.register {
+    height: 700px;
+    border-radius: 7px;
+}
+
+.register-logo {
+    position: relative;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.register-title{
+    position: relative;
+    top: 9.5%;
+}
+
+#hr-register{
+    position: relative;
+    top: 10%;
+    width: 34%;
+    border: 2px solid #01579b;
+}
+
+input:not([type]) + label,
+input:not([type])[readonly="readonly"] + label,
+input[type=text]:not(.browser-default) + label,
+input[type=text]:not(.browser-default)[readonly="readonly"] + label,
+input[type=password]:not(.browser-default) + label,
+input[type=password]:not(.browser-default)[readonly="readonly"] + label,
+input[type=email]:not(.browser-default) + label,
+input[type=email]:not(.browser-default)[readonly="readonly"] + label,
+textarea.materialize-textarea + label,
+textarea.materialize-textarea[readonly="readonly"] + label {
+    color: #01579b !important;
+}
+
+.error-msg {
+    font-size: 18px;
+}
+
+/* forgot-pass */
+
+.main-register.main-forgot-pass {
+    padding-bottom: 60px;
+}
+
+.forgot-pass {
+    padding-top: 20px;
+    height: 545px;
+    border-radius: 7px;
+}
+
+.legend {
+    font-size: 19px;
+    position: relative;
+    top: 70px;
+}
+
+#hr-forgot-pass{
+    position: relative;
+    top: 10%;
+    width: 46%;
+    border: 2px solid #01579b;
+}
+
+.email-field {
+    position: relative;
+    bottom: 12px;
+}
